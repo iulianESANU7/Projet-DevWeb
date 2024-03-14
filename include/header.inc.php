@@ -35,6 +35,3 @@ if (isset($article)) {
     echo $article;
 }
 ?>
-
-
-

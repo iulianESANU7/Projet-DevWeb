@@ -11,14 +11,11 @@
 $title = "Navi'go";
 require './include/header.inc.php';
 require './include/functions.inc.php';
-?>
 
-<article>
-    <h2>Nasa apod</h2>
-    <?php
-        echo getFigcaptionFromNasaAPI();
-    ?>
-</article>
+?>
+<?php
+    echo nasaAPOD();
+?>
 
 <?php
 $lastUpdate = "2024-03-14";
